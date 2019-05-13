@@ -3,7 +3,7 @@ library("magrittr")
 options(scipen=999)
 #Primeira Lista de Exercícios
 
-#Questão 5
+#Questão 5----------------------------------------------------------------
 
 Empresa <- c(1:15)
 Meses <- c(8,9,4,5,3,6,8,6,6,8,5,5,6,4,4)
@@ -65,7 +65,7 @@ print(df_empresa_tamanho)
 
 #_______________________________________________________________#
 
-#Questão 6
+#Questão 6----------------------------------------------------------------
 
 Cidade <- c("A","B","C","D","E","F","G","H","I","J")
 Investimento <- c(26,16,14,10,19,15,19,16,19,18)
@@ -95,7 +95,7 @@ mean(cidade_investimento_sel$Investimento)
 # ela ficou de fora do cálculo do investimento básico. Por isso este é menor do 
 # a média original do investimento (17,2)
 
-#Questão 7
+#Questão 7---------------------------------------------------------------
 
 Ind <- c(1:20)
 A <- c(55,2,13,11,23,2,15,12,14,28,12,45,19,30,16,12,7,13,1,7)
@@ -130,7 +130,7 @@ boxplot_reacao <- ggplot(long_reacao, aes(x = estimulo, y = Tempo)) +
 
 boxplot_reacao
 
-#Questão 8
+#Questão 8-----------------------------------------------------------------
 
 fam <- c("A","B","C","D","E","F","G","H","I","J")
 renda_sm <- c(12,16,18,20,28,30,40,48,50,54)
@@ -154,7 +154,7 @@ cor.test(gasto_saude$renda_sm, gasto_saude$saude_perc)
 # negativa de -0.94 o que indica que quanto maior a renda, menor a proporção de
 # de gasto com saude. O resultado foi significativo a um p-valor < 0,000.
 
-#Questão 9
+#Questão 9-------------------------------------------------------------------
 
 aluno <- c("A","B","C","D","E","F","G","H","I")
 P1 <- c(7.5,8.2,8.5,8.7,8.8,9.1,9.2,9.3,10)
